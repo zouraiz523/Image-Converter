@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Cartoon Converter</title>
+    <!-- Link to CSS (to be added later) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Convert Your Image into a Cartoon</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Your Image</h2>
+            <form id="upload-form">
+                <label for="image-input">Select an image:</label>
+                <input type="file" id="image-input" accept="image/*" required>
+                <button type="button" id="convert-btn">Convert to Cartoon</button>
+            </form>
+        </section>
+        <section id="preview-section">
+            <h2>Preview</h2>
+            <div id="image-preview">
+                <img id="original-image" src="" alt="Original Image Preview" style="display: none;">
+                <canvas id="cartoon-canvas"></canvas>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Image to Cartoon Converter</p>
+    </footer>
+    <!-- Link to JavaScript (to be added later) -->
+    <script src="scrpt.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
